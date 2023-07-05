@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-zinc-900 font-mono">
+    <section class="container">
+      <h1 class="text-center text-[25px] text-green-600 my-[20px]">
+        Search your CEP
+      </h1>
+      <form class="buttonSearch">
+        <div class="flex justify-center gap-[15px] items-center text-white">
+          <p>CEP:</p>
+          <input
+            type="Type your CEP"
+            class="searchCep rounded-[10px] py-[5px] px-[5px] text-black"
+          />
+          <button
+            class="buttonSearch rounded-[10px] p-[5px] bg-green-600 hover:bg-green-500"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+      <div
+        class="form-Adress flex justify-center gap-[50px] items-center my-[40px] text-white text-center"
+      >
+        <div class="left">
+          <div>
+            <p>Street</p>
+            <input
+              type=""
+              class="street rounded-[10px] text-black text-center"
+            />
+          </div>
+          <div>
+            <p>Distric</p>
+            <input
+              type=""
+              class="distric rounded-[10px] text-black text-center"
+            />
+          </div>
+          <div>
+            <p>City</p>
+            <input type="" class="city rounded-[10px] text-black text-center" />
+          </div>
+        </div>
+        <div class="right">
+          <div>
+            <p>UF</p>
+            <input type="" class="uf rounded-[10px] text-black text-center" />
+          </div>
+          <div>
+            <p>Number</p>
+            <input
+              type=""
+              class="number rounded-[10px] text-black text-center"
+            />
+          </div>
+          <div>
+            <p>Complement</p>
+            <input
+              type=""
+              class="complement rounded-[10px] text-black text-center"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </body>
+</html>

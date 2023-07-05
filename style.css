@@ -1,0 +1,24 @@
+.container {
+  box-sizing: border-box;
+  margin: 200px auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 500px) {
+  .form-Adress {
+    gap: 30px;
+  }
+  input {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .form-Adress {
+    gap: 25px;
+  }
+  input {
+    width: 120px;
+  }
+}
